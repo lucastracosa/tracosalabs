@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 500px) and (max-width: 647px) {
+    .topo-do-site .img-topo-site img{
+        width:300px;
+        margin-top: -80px;
+        margin-left: 60px;
+   
+}
+
+footer .line-footer p {
+    margin-top: 20px;
+}
+
+.borda{
+    border-top: none;
+ }
+}
+
+@media screen and (min-width: 620px) and (max-width: 768px) {
+
+    .topo-do-site .img-topo-site img{
+    display: none
+   
+}
+.sobre .btn-social img{
+margin-left: 70px;
+
+}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1020px) {
+    .topo-do-site .img-topo-site img{
+      display: none; 
+    }
+    .topo-do-site .text-topo-site{
+        margin-top: -150px;
+        text-align: center;
+        max-width: 100%;
+    }
+    .topo-do-site .text-topo-site p{
+        text-align: center;
+        margin-left: 100px;
+        max-width: 100%;
+    }
+
+    .topo-do-site .text-topo-site span{
+        text-align: center;
+        max-width: 100%;
+    }
+   
+
+.sobre .btn-social img{
+margin-left: 70px;
+}
+
+
+}
