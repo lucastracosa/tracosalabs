@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mobilefirst.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <link rel="shortcut icon" href="images/tracosa-LABW.png" type="image/x-icon">
     <script src="menu.js" defer></script>
     <title>Tracosa Labs</title>
 </head>
@@ -56,7 +57,7 @@
                 <nav>
                     <ul>
                         <li><a href="#">Inicio</a></li>
-                        <li><a href="#">Serviços</a></li>
+                        <li><a href="#portfolio">Serviços</a></li>
                         <li><a href="#sobre">Sobre</a></li>
                         <li><a href="#">Produtos</a></li>
                         <li><a href="https://wa.me/56975857039" target="_blank">Contato</a></li>
@@ -79,8 +80,8 @@
                         <span>Tracosa Labs, somos criados para criar.</span>
 
                         <div class="btn-contato" id="btn-cont">
-                            <a href="#"></a>
-                            <button>Entre em Contato</button>
+                            <a href="https://wa.me/56975857039">
+                            <button>Entre em Contato</button></a>
                         </div>
 
                     </div> <!--txt-topo-site-->
@@ -160,11 +161,15 @@
         <section class="formulario" id="formulario">
             <div class="interface">
                 <h2 class="titulo">FALA <span>COMIGO.</span></h2>
-                <form action="">
-                    <input type="text" name="" id="" placeholder="Seu Nome" required>
-                    <input type="text" name="" id="" placeholder="Seu e-mail"  required>
-                    <input type="text" name="" id="" placeholder="Seu Whatsapp" >
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
+
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <input type="hidden" name="accessKey" value="f0455bdf-ad9c-41a2-89db-fee3d63fa220">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/susses.html"> 
+
+                    <input type="text" name="name" id="iname" placeholder="Seu Nome" required>
+                    <input type="email" name="email" id="imail" placeholder="Seu e-mail"  required>
+                    <input type="tel" name="phone" id="icell" placeholder="Seu Whatsapp" >
+                    <textarea name="msg" id="message" cols="30" rows="10" placeholder="Sua Mensagem" required></textarea>
                         <div class="btn-enviar">
                         <input type="submit" value="ENVIAR">
                         </div>
