@@ -295,6 +295,10 @@ section.sobre .flex{
     text-align: justify;
 }
 
+.sobre .txt-sobre .enfase{
+    color: #01AB75;
+    font-weight: 600;
+}
 
 
 
