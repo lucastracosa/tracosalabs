@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+ /* Botão de Login */
+ .login-btn {
+    background-color: #083613;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .login-btn:hover {
+    background-color: #0056b3;
+  }
+
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+    margin-top: 20px;
+}
+
+h3{
+    color: #000000;
+    text-align: center;
+}
+
+details {
+    margin-bottom: 15px;
+}
+
+summary {
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.chapter-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
+    gap: 10px;
+    margin-top: 10px;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+label input {
+    display: none;
+}
+
+label input:checked + label {
+    background-color: #4CAF50;
+    color: white;
+}
+
+label:hover {
+    background-color: #d0d0d0;
+}
+
+#progress-section {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#progress-bar-container {
+    width: 100%;
+    height: 20px;
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#progress-bar {
+    height: 100%;
+    background-color:  #01ab75;
+    width: 0;
+    transition: width 0.3s ease;
+}
+
+button {
+    margin: 10px 5px;
+    margin-bottom: 60px;
+    padding: 10px 15px;
+    background-color:  #01ab75;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color:  #01ab75;}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color:  #01ab75;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Botão Completar Livro */
+button.complete-book {
+    margin: 10px 0;
+    padding: 5px 10px;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button.complete-book:hover {
+    background-color: #1E88E5;
+}
+
+

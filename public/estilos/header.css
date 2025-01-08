@@ -1,0 +1,110 @@
+header{
+    padding: 40px 4%;
+
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+header a{
+    display: inline-block;
+    color: #5c5c5c;
+    text-decoration: none;
+    transition: 0.3s;
+
+}
+
+header a:hover{
+    color: #ffffff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li{
+   display: inline-block;
+   padding: 0 40px;
+}
+
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px  #01ab75 ;
+    color: white;
+    transform: scale(1.05);
+}
+
+header .interface .logo .logo1{
+    width: 200px;
+
+}
+
+/************** Estilo do topo do Site **************/
+
+section .topo-do-site{
+    padding: 40px 4%;
+}
+
+section .topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap:90px;
+}
+
+.topo-do-site h1{
+    color: white;
+
+    margin-top: 100px;
+    font-size: 42px;
+
+}
+.topo-do-site .text-topo-site h1 span{
+    color: #01AB75 ;}
+
+    .topo-do-site .text-topo-site p{
+        color: white;
+        margin: 20px 0px; 
+        margin-right: 115px;
+
+    }    
+
+    .topo-do-site .text-topo-site span{
+        color: white;
+        font-size: 30px;
+        margin: 20px 0px; 
+        margin-right: 115px;
+        color: #01AB75;
+        padding-bottom: 30px;
+
+    }    
+
+    .topo-do-site .text-topo-site #btn-cont{
+        margin-top: 30px;
+    }
+
+.topo-do-site .img-topo-site{
+    margin-top: 100px;
+
+    
+}
+.topo-do-site .img-topo-site{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+
+
+}
+
+@keyframes flutuar{
+    0%{
+        top: 0;
+
+    }
+    100%{
+        top: 30px;
+    }
+}

@@ -1,0 +1,1795 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Google fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--Fim Google fontes-->
+    <!--google icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--FIM gogle icons-->
+    <link rel="stylesheet" href="/public/estilos/style.css">
+    <link rel="stylesheet" href="/public/estilos/mobilefirst.css">
+    <link rel="stylesheet" href="/public/estilos/media-query.css">
+    <link rel="shortcut icon" href="/public/images/tracosa-LABW.png" type="image/x-icon">
+    <script src="/public/scripts/menu.js" defer></script>
+    <link rel="stylesheet" href="/public/estilos/bibliastyle.css">
+    <title>Produtos</title>
+</head>
+
+
+<body>
+    <header>
+        <div class="interface">
+            <div class="logo">
+                <a href="#"> <img class="logo1" src="/public/images/logotrax.png" alt="logo da agencia tracosalabs"></a> 
+            </div> <!--logo-->
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#portfolio">Serviços</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="qr.html">QR Code Generator</a></li>
+                    <li><a href="#">Produtos</a></li>
+                </ul>
+            </nav>
+
+            
+         
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <span class="material-symbols-outlined">
+                    menu</span>
+            </div><!--btn-abrir-menu-->
+
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <span class="material-symbols-outlined">
+                        close</span>
+                </div><!--btn-fechar-->
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Inicio</a></li>
+                        <li><a href="#portfolio">Serviços</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="qr.html">QR Code Generator</a></li>
+                        <li><a href="productos.html">Produtos</a></li>
+                        <li><a href="https://wa.me/56975857039" target="_blank">Contato</a></li>
+                    </ul>
+                </nav>
+
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface-->
+    
+    </header>
+
+    <header>
+        <h1>Checklist de Leitura Bíblica</h1>
+        <p>Marque os capítulos que você já leu!</p>
+  
+
+    </header>
+
+    <main>
+
+        <section id="progress-section">
+            <p>Progresso total: <span id="progress">0%</span></p>
+            <div id="progress-bar-container">
+                <div id="progress-bar"></div>
+            </div>
+        </section>
+
+        <section id="checklist">
+            <h2>Antigo Testamento</h2>
+            <h3>Pentateuco</h3>
+
+            <details>
+                <summary>Gênesis</summary> 
+                <div class="chapter-grid">
+                    <!-- Gênesis tem 50 capítulos -->
+                    <label><input type="checkbox" id="genesis-1"> 1</label>
+                    <label><input type="checkbox" id="genesis-2"> 2</label>
+                    <label><input type="checkbox" id="genesis-3"> 3</label>
+                    <label><input type="checkbox" id="genesis-4"> 4</label>
+                    <label><input type="checkbox" id="genesis-5"> 5</label>
+                    <label><input type="checkbox" id="genesis-6"> 6</label>
+                    <label><input type="checkbox" id="genesis-7"> 7</label>
+                    <label><input type="checkbox" id="genesis-8"> 8</label>
+                    <label><input type="checkbox" id="genesis-9"> 9</label>
+                    <label><input type="checkbox" id="genesis-10"> 10</label>
+                    <label><input type="checkbox" id="genesis-11"> 11</label>
+                    <label><input type="checkbox" id="genesis-12"> 12</label>
+                    <label><input type="checkbox" id="genesis-13"> 13</label>
+                    <label><input type="checkbox" id="genesis-14"> 14</label>
+                    <label><input type="checkbox" id="genesis-15"> 15</label>
+                    <label><input type="checkbox" id="genesis-16"> 16</label>
+                    <label><input type="checkbox" id="genesis-17"> 17</label>
+                    <label><input type="checkbox" id="genesis-18"> 18</label>
+                    <label><input type="checkbox" id="genesis-19"> 19</label>
+                    <label><input type="checkbox" id="genesis-20"> 20</label>
+                    <label><input type="checkbox" id="genesis-21"> 21</label>
+                    <label><input type="checkbox" id="genesis-22"> 22</label>
+                    <label><input type="checkbox" id="genesis-23"> 23</label>
+                    <label><input type="checkbox" id="genesis-24"> 24</label>
+                    <label><input type="checkbox" id="genesis-25"> 25</label>
+                    <label><input type="checkbox" id="genesis-26"> 26</label>
+                    <label><input type="checkbox" id="genesis-27"> 27</label>
+                    <label><input type="checkbox" id="genesis-28"> 28</label>
+                    <label><input type="checkbox" id="genesis-29"> 29</label>
+                    <label><input type="checkbox" id="genesis-30"> 30</label>
+                    <label><input type="checkbox" id="genesis-31"> 31</label>
+                    <label><input type="checkbox" id="genesis-32"> 32</label>
+                    <label><input type="checkbox" id="genesis-33"> 33</label>
+                    <label><input type="checkbox" id="genesis-34"> 34</label>
+                    <label><input type="checkbox" id="genesis-35"> 35</label>
+                    <label><input type="checkbox" id="genesis-36"> 36</label>
+                    <label><input type="checkbox" id="genesis-37"> 37</label>
+                    <label><input type="checkbox" id="genesis-38"> 38</label>
+                    <label><input type="checkbox" id="genesis-39"> 39</label>
+                    <label><input type="checkbox" id="genesis-40"> 40</label>
+                    <label><input type="checkbox" id="genesis-41"> 41</label>
+                    <label><input type="checkbox" id="genesis-42"> 42</label>
+                    <label><input type="checkbox" id="genesis-43"> 43</label>
+                    <label><input type="checkbox" id="genesis-44"> 44</label>
+                    <label><input type="checkbox" id="genesis-45"> 45</label>
+                    <label><input type="checkbox" id="genesis-46"> 46</label>
+                    <label><input type="checkbox" id="genesis-47"> 47</label>
+                    <label><input type="checkbox" id="genesis-48"> 48</label>
+                    <label><input type="checkbox" id="genesis-49"> 49</label>
+                    <label><input type="checkbox" id="genesis-50"> 50</label>
+                    <!-- Continue até 50 -->
+                </div>
+            </details>
+
+            <details>
+                <summary>Êxodo</summary>
+                <div class="chapter-grid">
+                    <!-- Êxodo tem 40 capítulos -->
+                    <label><input type="checkbox" id="exodo-1"> 1</label>
+                    <label><input type="checkbox" id="exodo-2"> 2</label>
+                    <label><input type="checkbox" id="exodo-3"> 3</label>
+                    <label><input type="checkbox" id="exodo-4"> 4</label>
+                    <label><input type="checkbox" id="exodo-5"> 5</label>
+                    <label><input type="checkbox" id="exodo-6"> 6</label>
+                    <label><input type="checkbox" id="exodo-7"> 7</label>
+                    <label><input type="checkbox" id="exodo-8"> 8</label>
+                    <label><input type="checkbox" id="exodo-9"> 9</label>
+                    <label><input type="checkbox" id="exodo-10"> 10</label>
+                    <label><input type="checkbox" id="exodo-11"> 11</label>
+                    <label><input type="checkbox" id="exodo-12"> 12</label>
+                    <label><input type="checkbox" id="exodo-13"> 13</label>
+                    <label><input type="checkbox" id="exodo-14"> 14</label>
+                    <label><input type="checkbox" id="exodo-15"> 15</label>
+                    <label><input type="checkbox" id="exodo-16"> 16</label>
+                    <label><input type="checkbox" id="exodo-17"> 17</label>
+                    <label><input type="checkbox" id="exodo-18"> 18</label>
+                    <label><input type="checkbox" id="exodo-19"> 19</label>
+                    <label><input type="checkbox" id="exodo-20"> 20</label>
+                    <label><input type="checkbox" id="exodo-21"> 21</label>
+                    <label><input type="checkbox" id="exodo-22"> 22</label>
+                    <label><input type="checkbox" id="exodo-23"> 23</label>
+                    <label><input type="checkbox" id="exodo-24"> 24</label>
+                    <label><input type="checkbox" id="exodo-25"> 25</label>
+                    <label><input type="checkbox" id="exodo-26"> 26</label>
+                    <label><input type="checkbox" id="exodo-27"> 27</label>
+                    <label><input type="checkbox" id="exodo-28"> 28</label>
+                    <label><input type="checkbox" id="exodo-29"> 29</label>
+                    <label><input type="checkbox" id="exodo-30"> 30</label>
+                    <label><input type="checkbox" id="exodo-31"> 31</label>
+                    <label><input type="checkbox" id="exodo-32"> 32</label>
+                    <label><input type="checkbox" id="exodo-33"> 33</label>
+                    <label><input type="checkbox" id="exodo-34"> 34</label>
+                    <label><input type="checkbox" id="exodo-35"> 35</label>
+                    <label><input type="checkbox" id="exodo-36"> 36</label>
+                    <label><input type="checkbox" id="exodo-37"> 37</label>
+                    <label><input type="checkbox" id="exodo-38"> 38</label>
+                    <label><input type="checkbox" id="exodo-39"> 39</label>
+                    <label><input type="checkbox" id="exodo-40"> 40</label>
+                    <!-- Continue até 40 -->
+                </div>
+            </details>
+
+            <details>
+                <summary>Levítico</summary>
+                <div class="chapter-grid">
+                <!-- Levítico tem 27 capítulos -->
+                 <label><input type="checkbox" id="levitico-1"> 1</label>
+                 <label><input type="checkbox" id="levitico-2"> 2</label>
+                 <label><input type="checkbox" id="levitico-3"> 3</label>
+                 <label><input type="checkbox" id="levitico-4"> 4</label>
+                 <label><input type="checkbox" id="levitico-5"> 5</label>
+                 <label><input type="checkbox" id="levitico-6"> 6</label>
+                 <label><input type="checkbox" id="levitico-7"> 7</label>
+                 <label><input type="checkbox" id="levitico-8"> 8</label>
+                 <label><input type="checkbox" id="levitico-9"> 9</label>
+                 <label><input type="checkbox" id="levitico-10"> 10</label>
+                 <label><input type="checkbox" id="levitico-11"> 11</label>
+                 <label><input type="checkbox" id="levitico-12"> 12</label>
+                 <label><input type="checkbox" id="levitico-13"> 13</label>
+                 <label><input type="checkbox" id="levitico-14"> 14</label>
+                 <label><input type="checkbox" id="levitico-15"> 15</label>
+                 <label><input type="checkbox" id="levitico-16"> 16</label>
+                 <label><input type="checkbox" id="levitico-17"> 17</label>
+                 <label><input type="checkbox" id="levitico-18"> 18</label>
+                 <label><input type="checkbox" id="levitico-19"> 19</label>
+                 <label><input type="checkbox" id="levitico-20"> 20</label>
+                 <label><input type="checkbox" id="levitico-21"> 21</label>
+                 <label><input type="checkbox" id="levitico-22"> 22</label>
+                 <label><input type="checkbox" id="levitico-23"> 23</label>
+                 <label><input type="checkbox" id="levitico-24"> 24</label>
+                 <label><input type="checkbox" id="levitico-25"> 25</label>
+                 <label><input type="checkbox" id="levitico-26"> 26</label>
+                 <label><input type="checkbox" id="levitico-27"> 27</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Números</summary>
+                <div class="chapter-grid">
+                    <!-- Números tem 36 capítulos -->
+                     <label><input type="checkbox" id="numeros-1"> 1</label>
+                     <label><input type="checkbox" id="numeros-2"> 2</label>
+                     <label><input type="checkbox" id="numeros-3"> 3</label>
+                     <label><input type="checkbox" id="numeros-4"> 4</label>
+                     <label><input type="checkbox" id="numeros-5"> 5</label>
+                     <label><input type="checkbox" id="numeros-6"> 6</label>
+                     <label><input type="checkbox" id="numeros-7"> 7</label>
+                     <label><input type="checkbox" id="numeros-8"> 8</label>
+                     <label><input type="checkbox" id="numeros-9"> 9</label>
+                     <label><input type="checkbox" id="numeros-10"> 10</label>
+                     <label><input type="checkbox" id="numeros-11"> 11</label>
+                     <label><input type="checkbox" id="numeros-12"> 12</label>
+                     <label><input type="checkbox" id="numeros-13"> 13</label>
+                     <label><input type="checkbox" id="numeros-14"> 14</label>
+                     <label><input type="checkbox" id="numeros-15"> 15</label>
+                     <label><input type="checkbox" id="numeros-16"> 16</label>
+                     <label><input type="checkbox" id="numeros-17"> 17</label>
+                     <label><input type="checkbox" id="numeros-18"> 18</label>
+                     <label><input type="checkbox" id="numeros-19"> 19</label>
+                     <label><input type="checkbox" id="numeros-20"> 20</label>
+                     <label><input type="checkbox" id="numeros-21"> 21</label>
+                     <label><input type="checkbox" id="numeros-22"> 22</label>
+                     <label><input type="checkbox" id="numeros-23"> 23</label>
+                     <label><input type="checkbox" id="numeros-24"> 24</label>
+                     <label><input type="checkbox" id="numeros-25"> 25</label>
+                     <label><input type="checkbox" id="numeros-26"> 26</label>
+                     <label><input type="checkbox" id="numeros-27"> 27</label>
+                     <label><input type="checkbox" id="numeros-28"> 28</label>
+                     <label><input type="checkbox" id="numeros-29"> 29</label>
+                     <label><input type="checkbox" id="numeros-30"> 30</label>
+                     <label><input type="checkbox" id="numeros-31"> 31</label>
+                     <label><input type="checkbox" id="numeros-32"> 32</label>
+                     <label><input type="checkbox" id="numeros-33"> 33</label>
+                     <label><input type="checkbox" id="numeros-34"> 34</label>
+                     <label><input type="checkbox" id="numeros-35"> 35</label>
+                     <label><input type="checkbox" id="numeros-36"> 36</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Deuteronômio</summary>
+                <div class="chapter-grid">
+                    <!-- Deuteronômio tem 34 capítulos -->
+                     <label><input type="checkbox" id="deuteronomio-1">1</label>
+                     <label><input type="checkbox" id="deuteronomio-2">2</label>
+                     <label><input type="checkbox" id="deuteronomio-3">3</label>
+                     <label><input type="checkbox" id="deuteronomio-4">4</label>
+                     <label><input type="checkbox" id="deuteronomio-5">5</label>
+                     <label><input type="checkbox" id="deuteronomio-6">6</label>
+                     <label><input type="checkbox" id="deuteronomio-7">7</label>
+                     <label><input type="checkbox" id="deuteronomio-8">8</label>
+                     <label><input type="checkbox" id="deuteronomio-9">9</label>
+                     <label><input type="checkbox" id="deuteronomio-10">10</label>
+                     <label><input type="checkbox" id="deuteronomio-11">11</label>
+                     <label><input type="checkbox" id="deuteronomio-12">12</label>
+                     <label><input type="checkbox" id="deuteronomio-13">13</label>
+                     <label><input type="checkbox" id="deuteronomio-14">14</label>
+                     <label><input type="checkbox" id="deuteronomio-15">15</label>
+                     <label><input type="checkbox" id="deuteronomio-16">16</label>
+                     <label><input type="checkbox" id="deuteronomio-17">17</label>
+                     <label><input type="checkbox" id="deuteronomio-18">18</label>
+                     <label><input type="checkbox" id="deuteronomio-19">19</label>
+                     <label><input type="checkbox" id="deuteronomio-20">20</label>
+                     <label><input type="checkbox" id="deuteronomio-21">21</label>
+                     <label><input type="checkbox" id="deuteronomio-22">22</label>
+                     <label><input type="checkbox" id="deuteronomio-23">23</label>
+                     <label><input type="checkbox" id="deuteronomio-24">24</label>
+                     <label><input type="checkbox" id="deuteronomio-25">25</label>
+                     <label><input type="checkbox" id="deuteronomio-26">26</label>
+                     <label><input type="checkbox" id="deuteronomio-27">27</label>
+                     <label><input type="checkbox" id="deuteronomio-28">28</label>
+                     <label><input type="checkbox" id="deuteronomio-29">29</label>
+                     <label><input type="checkbox" id="deuteronomio-30">30</label>
+                     <label><input type="checkbox" id="deuteronomio-31">31</label>
+                     <label><input type="checkbox" id="deuteronomio-32">32</label>
+                     <label><input type="checkbox" id="deuteronomio-33">33</label>
+                     <label><input type="checkbox" id="deuteronomio-34">34</label>
+                </div>
+            </details>
+
+            <h3>Históricos</h3>
+
+            <details>
+                <summary>Josué</summary>
+                <div class="chapter-grid">
+                    <!-- Josué tem 24 capítulos -->
+                     <label><input type="checkbox" id="josue-1">1</label>
+                     <label><input type="checkbox" id="josue-2">2</label>
+                     <label><input type="checkbox" id="josue-3">3</label>
+                     <label><input type="checkbox" id="josue-4">4</label>
+                     <label><input type="checkbox" id="josue-5">5</label>
+                     <label><input type="checkbox" id="josue-6">6</label>
+                     <label><input type="checkbox" id="josue-7">7</label>
+                     <label><input type="checkbox" id="josue-8">8</label>
+                     <label><input type="checkbox" id="josue-9">9</label>
+                     <label><input type="checkbox" id="josue-10">10</label>
+                     <label><input type="checkbox" id="josue-11">11</label>
+                     <label><input type="checkbox" id="josue-12">12</label>
+                     <label><input type="checkbox" id="josue-13">13</label>
+                     <label><input type="checkbox" id="josue-14">14</label>
+                     <label><input type="checkbox" id="josue-15">15</label>
+                     <label><input type="checkbox" id="josue-16">16</label>
+                     <label><input type="checkbox" id="josue-17">17</label>
+                     <label><input type="checkbox" id="josue-18">18</label>
+                     <label><input type="checkbox" id="josue-19">19</label>
+                     <label><input type="checkbox" id="josue-20">20</label>
+                     <label><input type="checkbox" id="josue-21">21</label>
+                     <label><input type="checkbox" id="josue-22">22</label>
+                     <label><input type="checkbox" id="josue-23">23</label>
+                     <label><input type="checkbox" id="josue-24">24</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Juizes</summary>
+                <div class="chapter-grid">
+                    <!-- Juizes tem 21 capítulos -->
+                     <label><input type="checkbox" id="juizes-1">1</label>
+                     <label><input type="checkbox" id="juizes-2">2</label>
+                     <label><input type="checkbox" id="juizes-3">3</label>
+                     <label><input type="checkbox" id="juizes-4">4</label>
+                     <label><input type="checkbox" id="juizes-5">5</label>
+                     <label><input type="checkbox" id="juizes-6">6</label>
+                     <label><input type="checkbox" id="juizes-7">7</label>
+                     <label><input type="checkbox" id="juizes-8">8</label>
+                     <label><input type="checkbox" id="juizes-9">9</label>
+                     <label><input type="checkbox" id="juizes-10">10</label>
+                     <label><input type="checkbox" id="juizes-11">11</label>
+                     <label><input type="checkbox" id="juizes-12">12</label>
+                     <label><input type="checkbox" id="juizes-13">13</label>
+                     <label><input type="checkbox" id="juizes-14">14</label>
+                     <label><input type="checkbox" id="juizes-15">15</label>
+                     <label><input type="checkbox" id="juizes-16">16</label>
+                     <label><input type="checkbox" id="juizes-17">17</label>
+                     <label><input type="checkbox" id="juizes-18">18</label>
+                     <label><input type="checkbox" id="juizes-19">19</label>
+                     <label><input type="checkbox" id="juizes-20">20</label>
+                     <label><input type="checkbox" id="juizes-21">21</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Rute</summary>
+                <div class="chapter-grid">
+                    <!-- Rute tem 4 capítulos -->
+                     <label><input type="checkbox" id="rute-1">1</label>
+                     <label><input type="checkbox" id="rute-2">2</label>
+                     <label><input type="checkbox" id="rute-3">3</label>
+                     <label><input type="checkbox" id="rute-4">4</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>1 Samuel</summary>
+                <div class="chapter-grid">
+                    <!-- 1 Samuel tem 31 capítulos -->
+                     <label><input type="checkbox" id="1-samuel-1">1</label>
+                     <label><input type="checkbox" id="1-samuel-2">2</label>
+                     <label><input type="checkbox" id="1-samuel-3">3</label>
+                     <label><input type="checkbox" id="1-samuel-4">4</label>
+                     <label><input type="checkbox" id="1-samuel-5">5</label>
+                     <label><input type="checkbox" id="1-samuel-6">6</label>
+                     <label><input type="checkbox" id="1-samuel-7">7</label>
+                     <label><input type="checkbox" id="1-samuel-8">8</label>
+                     <label><input type="checkbox" id="1-samuel-9">9</label>
+                     <label><input type="checkbox" id="1-samuel-10">10</label>
+                     <label><input type="checkbox" id="1-samuel-11">11</label>
+                     <label><input type="checkbox" id="1-samuel-12">12</label>
+                     <label><input type="checkbox" id="1-samuel-13">13</label>
+                     <label><input type="checkbox" id="1-samuel-14">14</label>
+                     <label><input type="checkbox" id="1-samuel-15">15</label>
+                     <label><input type="checkbox" id="1-samuel-16">16</label>
+                     <label><input type="checkbox" id="1-samuel-17">17</label>
+                     <label><input type="checkbox" id="1-samuel-18">18</label>
+                     <label><input type="checkbox" id="1-samuel-19">19</label>
+                     <label><input type="checkbox" id="1-samuel-20">20</label>
+                     <label><input type="checkbox" id="1-samuel-21">21</label>
+                     <label><input type="checkbox" id="1-samuel-22">22</label>
+                     <label><input type="checkbox" id="1-samuel-23">23</label>
+                     <label><input type="checkbox" id="1-samuel-24">24</label>
+                     <label><input type="checkbox" id="1-samuel-25">25</label>
+                     <label><input type="checkbox" id="1-samuel-26">26</label>
+                     <label><input type="checkbox" id="1-samuel-27">27</label>
+                     <label><input type="checkbox" id="1-samuel-28">28</label>
+                     <label><input type="checkbox" id="1-samuel-29">29</label>
+                     <label><input type="checkbox" id="1-samuel-30">30</label>
+                     <label><input type="checkbox" id="1-samuel-31">31</label>
+                     </div>
+                </div>
+            </details>
+
+            <details>
+                <summary>2 Samuel</summary>
+                <div class="chapter-grid">
+                    <!-- 2 Samuel tem 24 capítulos -->
+                     <label><input type="checkbox" id="2-samuel-1">1</label>
+                     <label><input type="checkbox" id="2-samuel-2">2</label>
+                     <label><input type="checkbox" id="2-samuel-3">3</label>
+                     <label><input type="checkbox" id="2-samuel-4">4</label>
+                     <label><input type="checkbox" id="2-samuel-5">5</label>
+                     <label><input type="checkbox" id="2-samuel-6">6</label>
+                     <label><input type="checkbox" id="2-samuel-7">7</label>
+                     <label><input type="checkbox" id="2-samuel-8">8</label>
+                     <label><input type="checkbox" id="2-samuel-9">9</label>
+                     <label><input type="checkbox" id="2-samuel-10">10</label>
+                     <label><input type="checkbox" id="2-samuel-11">11</label>
+                     <label><input type="checkbox" id="2-samuel-12">12</label>
+                     <label><input type="checkbox" id="2-samuel-13">13</label>
+                     <label><input type="checkbox" id="2-samuel-14">14</label>
+                     <label><input type="checkbox" id="2-samuel-15">15</label>
+                     <label><input type="checkbox" id="2-samuel-16">16</label>
+                     <label><input type="checkbox" id="2-samuel-17">17</label>
+                     <label><input type="checkbox" id="2-samuel-18">18</label>
+                     <label><input type="checkbox" id="2-samuel-19">19</label>
+                     <label><input type="checkbox" id="2-samuel-20">20</label>
+                     <label><input type="checkbox" id="2-samuel-21">21</label>
+                     <label><input type="checkbox" id="2-samuel-22">22</label>
+                     <label><input type="checkbox" id="2-samuel-23">23</label>
+                     <label><input type="checkbox" id="2-samuel-24">24</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>1 Reis</summary>
+                <div class="chapter-grid">
+                    <!-- 1 Reis tem 22 capítulos -->
+                     <label><input type="checkbox" id="1-reis-1">1</label>
+                     <label><input type="checkbox" id="1-reis-2">2</label>
+                     <label><input type="checkbox" id="1-reis-3">3</label>
+                     <label><input type="checkbox" id="1-reis-4">4</label>
+                     <label><input type="checkbox" id="1-reis-5">5</label>
+                     <label><input type="checkbox" id="1-reis-6">6</label>
+                     <label><input type="checkbox" id="1-reis-7">7</label>
+                     <label><input type="checkbox" id="1-reis-8">8</label>
+                     <label><input type="checkbox" id="1-reis-9">9</label>
+                     <label><input type="checkbox" id="1-reis-10">10</label>
+                     <label><input type="checkbox" id="1-reis-11">11</label>
+                     <label><input type="checkbox" id="1-reis-12">12</label>
+                     <label><input type="checkbox" id="1-reis-13">13</label>
+                     <label><input type="checkbox" id="1-reis-14">14</label>
+                     <label><input type="checkbox" id="1-reis-15">15</label>
+                     <label><input type="checkbox" id="1-reis-16">16</label>
+                     <label><input type="checkbox" id="1-reis-17">17</label>
+                     <label><input type="checkbox" id="1-reis-18">18</label>
+                     <label><input type="checkbox" id="1-reis-19">19</label>
+                     <label><input type="checkbox" id="1-reis-20">20</label>
+                     <label><input type="checkbox" id="1-reis-21">21</label>
+                     <label><input type="checkbox" id="1-reis-22">22</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>2 Reis</summary>
+                <div class="chapter-grid">
+                    <!-- 2 Reis tem 24 capítulos -->
+                     <label><input type="checkbox" id="2-reis-1">1</label>
+                     <label><input type="checkbox" id="2-reis-2">2</label>
+                     <label><input type="checkbox" id="2-reis-3">3</label>
+                     <label><input type="checkbox" id="2-reis-4">4</label>
+                     <label><input type="checkbox" id="2-reis-5">5</label>
+                     <label><input type="checkbox" id="2-reis-6">6</label>
+                     <label><input type="checkbox" id="2-reis-7">7</label>
+                     <label><input type="checkbox" id="2-reis-8">8</label>
+                     <label><input type="checkbox" id="2-reis-9">9</label>
+                     <label><input type="checkbox" id="2-reis-10">10</label>
+                     <label><input type="checkbox" id="2-reis-11">11</label>
+                     <label><input type="checkbox" id="2-reis-12">12</label>
+                     <label><input type="checkbox" id="2-reis-13">13</label>
+                     <label><input type="checkbox" id="2-reis-14">14</label>
+                     <label><input type="checkbox" id="2-reis-15">15</label>
+                     <label><input type="checkbox" id="2-reis-16">16</label>
+                     <label><input type="checkbox" id="2-reis-17">17</label>
+                     <label><input type="checkbox" id="2-reis-18">18</label>
+                     <label><input type="checkbox" id="2-reis-19">19</label>
+                     <label><input type="checkbox" id="2-reis-20">20</label>
+                     <label><input type="checkbox" id="2-reis-21">21</label>
+                     <label><input type="checkbox" id="2-reis-22">22</label>
+                     <label><input type="checkbox" id="2-reis-23">23</label>
+                     <label><input type="checkbox" id="2-reis-24">24</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>1 Crônicas</summary>
+                <div class="chapter-grid">
+                    <!-- 1 Crônicas tem 29 capítulos -->
+                     <label><input type="checkbox" id="1-crônicas-1">1</label>
+                     <label><input type="checkbox" id="1-crônicas-2">2</label>
+                     <label><input type="checkbox" id="1-crônicas-3">3</label>
+                     <label><input type="checkbox" id="1-crônicas-4">4</label>
+                     <label><input type="checkbox" id="1-crônicas-5">5</label>
+                     <label><input type="checkbox" id="1-crônicas-6">6</label>
+                     <label><input type="checkbox" id="1-crônicas-7">7</label>
+                     <label><input type="checkbox" id="1-crônicas-8">8</label>
+                     <label><input type="checkbox" id="1-crônicas-9">9</label>
+                     <label><input type="checkbox" id="1-crônicas-10">10</label>
+                     <label><input type="checkbox" id="1-crônicas-11">11</label>
+                     <label><input type="checkbox" id="1-crônicas-12">12</label>
+                     <label><input type="checkbox" id="1-crônicas-13">13</label>
+                     <label><input type="checkbox" id="1-crônicas-14">14</label>
+                     <label><input type="checkbox" id="1-crônicas-15">15</label>
+                     <label><input type="checkbox" id="1-crônicas-16">16</label>
+                     <label><input type="checkbox" id="1-crônicas-17">17</label>
+                     <label><input type="checkbox" id="1-crônicas-18">18</label>
+                     <label><input type="checkbox" id="1-crônicas-19">19</label>
+                     <label><input type="checkbox" id="1-crônicas-20">20</label>
+                     <label><input type="checkbox" id="1-crônicas-21">21</label>
+                     <label><input type="checkbox" id="1-crônicas-22">22</label>
+                     <label><input type="checkbox" id="1-crônicas-23">23</label>
+                     <label><input type="checkbox" id="1-crônicas-24">24</label>
+                     <label><input type="checkbox" id="1-crônicas-25">25</label>
+                     <label><input type="checkbox" id="1-crônicas-26">26</label>
+                     <label><input type="checkbox" id="1-crônicas-27">27</label>
+                     <label><input type="checkbox" id="1-crônicas-28">28</label>
+                     <label><input type="checkbox" id="1-crônicas-29">29</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>2 Crônicas</summary>
+                <div class="chapter-grid">
+                    <!-- 2 Crônicas tem 36 capítulos -->
+                     <label><input type="checkbox" id="2-crônicas-1">1</label>
+                     <label><input type="checkbox" id="2-crônicas-2">2</label>
+                     <label><input type="checkbox" id="2-crônicas-3">3</label>
+                     <label><input type="checkbox" id="2-crônicas-4">4</label>
+                     <label><input type="checkbox" id="2-crônicas-5">5</label>
+                     <label><input type="checkbox" id="2-crônicas-6">6</label>
+                     <label><input type="checkbox" id="2-crônicas-7">7</label>
+                     <label><input type="checkbox" id="2-crônicas-8">8</label>
+                     <label><input type="checkbox" id="2-crônicas-9">9</label>
+                     <label><input type="checkbox" id="2-crônicas-10">10</label>
+                     <label><input type="checkbox" id="2-crônicas-11">11</label>
+                     <label><input type="checkbox" id="2-crônicas-12">12</label>
+                     <label><input type="checkbox" id="2-crônicas-13">13</label>
+                     <label><input type="checkbox" id="2-crônicas-14">14</label>
+                     <label><input type="checkbox" id="2-crônicas-15">15</label>
+                     <label><input type="checkbox" id="2-crônicas-16">16</label>
+                     <label><input type="checkbox" id="2-crônicas-17">17</label>
+                     <label><input type="checkbox" id="2-crônicas-18">18</label>
+                     <label><input type="checkbox" id="2-crônicas-19">19</label>
+                     <label><input type="checkbox" id="2-crônicas-20">20</label>
+                     <label><input type="checkbox" id="2-crônicas-21">21</label>
+                     <label><input type="checkbox" id="2-crônicas-22">22</label>
+                     <label><input type="checkbox" id="2-crônicas-23">23</label>
+                     <label><input type="checkbox" id="2-crônicas-24">24</label>
+                     <label><input type="checkbox" id="2-crônicas-25">25</label>
+                     <label><input type="checkbox" id="2-crônicas-26">26</label>
+                     <label><input type="checkbox" id="2-crônicas-27">27</label>
+                     <label><input type="checkbox" id="2-crônicas-28">28</label>
+                     <label><input type="checkbox" id="2-crônicas-29">29</label>
+                     <label><input type="checkbox" id="2-crônicas-30">30</label>
+                     <label><input type="checkbox" id="2-crônicas-31">31</label>
+                     <label><input type="checkbox" id="2-crônicas-32">32</label>
+                     <label><input type="checkbox" id="2-crônicas-33">33</label>
+                     <label><input type="checkbox" id="2-crônicas-34">34</label>
+                     <label><input type="checkbox" id="2-crônicas-35">35</label>
+                     <label><input type="checkbox" id="2-crônicas-36">36</label>
+            </div>
+            </details>
+
+            <details>
+                <summary>Esdras</summary>
+                <div class="chapter-grid">
+                    <!-- Esdras tem 10 capítulos -->
+                     <label><input type="checkbox" id="esdras-1">1</label>
+                     <label><input type="checkbox" id="esdras-2">2</label>
+                     <label><input type="checkbox" id="esdras-3">3</label>
+                     <label><input type="checkbox" id="esdras-4">4</label>
+                     <label><input type="checkbox" id="esdras-5">5</label>
+                     <label><input type="checkbox" id="esdras-6">6</label>
+                     <label><input type="checkbox" id="esdras-7">7</label>
+                     <label><input type="checkbox" id="esdras-8">8</label>
+                     <label><input type="checkbox" id="esdras-9">9</label>
+                     <label><input type="checkbox" id="esdras-10">10</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Neemias</summary>
+                <div class="chapter-grid">
+                    <!-- Neemias tem 13 capítulos -->
+                     <label><input type="checkbox" id="neemias-1">1</label>
+                     <label><input type="checkbox" id="neemias-2">2</label>
+                     <label><input type="checkbox" id="neemias-3">3</label>
+                     <label><input type="checkbox" id="neemias-4">4</label>
+                     <label><input type="checkbox" id="neemias-5">5</label>
+                     <label><input type="checkbox" id="neemias-6">6</label>
+                     <label><input type="checkbox" id="neemias-7">7</label>
+                     <label><input type="checkbox" id="neemias-8">8</label>
+                     <label><input type="checkbox" id="neemias-9">9</label>
+                     <label><input type="checkbox" id="neemias-10">10</label>
+                     <label><input type="checkbox" id="neemias-11">11</label>
+                     <label><input type="checkbox" id="neemias-12">12</label>
+                     <label><input type="checkbox" id="neemias-13">13</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Ester</summary>
+                <div class="chapter-grid">
+                    <!-- Ester tem 10 capítulos -->
+                     <label><input type="checkbox" id="ester-1">1</label>
+                     <label><input type="checkbox" id="ester-2">2</label>
+                     <label><input type="checkbox" id="ester-3">3</label>
+                     <label><input type="checkbox" id="ester-4">4</label>
+                     <label><input type="checkbox" id="ester-5">5</label>
+                     <label><input type="checkbox" id="ester-6">6</label>
+                     <label><input type="checkbox" id="ester-7">7</label>
+                     <label><input type="checkbox" id="ester-8">8</label>
+                     <label><input type="checkbox" id="ester-9">9</label>
+                     <label><input type="checkbox" id="ester-10">10</label>
+                </div>
+            </details>
+
+            <h3>Poéticos</h3>
+
+            <details>
+                <summary>Job</summary>
+                <div class="chapter-grid">
+                    <!-- Job tem 42 capítulos -->
+                     <label><input type="checkbox" id="job-1">1</label>
+                     <label><input type="checkbox" id="job-2">2</label>
+                     <label><input type="checkbox" id="job-3">3</label>
+                     <label><input type="checkbox" id="job-4">4</label>
+                     <label><input type="checkbox" id="job-5">5</label>
+                     <label><input type="checkbox" id="job-6">6</label>
+                     <label><input type="checkbox" id="job-7">7</label>
+                     <label><input type="checkbox" id="job-8">8</label>
+                     <label><input type="checkbox" id="job-9">9</label>
+                     <label><input type="checkbox" id="job-10">10</label>
+                     <label><input type="checkbox" id="job-11">11</label>
+                     <label><input type="checkbox" id="job-12">12</label>
+                     <label><input type="checkbox" id="job-13">13</label>
+                     <label><input type="checkbox" id="job-14">14</label>
+                     <label><input type="checkbox" id="job-15">15</label>
+                     <label><input type="checkbox" id="job-16">16</label>
+                     <label><input type="checkbox" id="job-17">17</label>
+                     <label><input type="checkbox" id="job-18">18</label>
+                     <label><input type="checkbox" id="job-19">19</label>
+                     <label><input type="checkbox" id="job-20">20</label>
+                     <label><input type="checkbox" id="job-21">21</label>
+                     <label><input type="checkbox" id="job-22">22</label>
+                     <label><input type="checkbox" id="job-23">23</label>
+                     <label><input type="checkbox" id="job-24">24</label>
+                     <label><input type="checkbox" id="job-25">25</label>
+                     <label><input type="checkbox" id="job-26">26</label>
+                     <label><input type="checkbox" id="job-27">27</label>
+                     <label><input type="checkbox" id="job-28">28</label>
+                     <label><input type="checkbox" id="job-29">29</label>
+                     <label><input type="checkbox" id="job-30">30</label>
+                     <label><input type="checkbox" id="job-31">31</label>
+                     <label><input type="checkbox" id="job-32">32</label>
+                     <label><input type="checkbox" id="job-33">33</label>
+                     <label><input type="checkbox" id="job-34">34</label>
+                     <label><input type="checkbox" id="job-35">35</label>
+                     <label><input type="checkbox" id="job-36">36</label>
+                     <label><input type="checkbox" id="job-37">37</label>
+                     <label><input type="checkbox" id="job-38">38</label>
+                     <label><input type="checkbox" id="job-39">39</label>
+                     <label><input type="checkbox" id="job-40">40</label>
+                     <label><input type="checkbox" id="job-41">41</label>
+                     <label><input type="checkbox" id="job-42">42</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Salmos</summary>
+                <div class="chapter-grid">
+                     <!-- Salmos tem 150 capítulos -->
+                    <label><input type="checkbox" id="salmos-1">1</label>
+                    <label><input type="checkbox" id="salmos-2">2</label>
+                    <label><input type="checkbox" id="salmos-3">3</label>
+                    <label><input type="checkbox" id="salmos-4">4</label>
+                    <label><input type="checkbox" id="salmos-5">5</label>
+                    <label><input type="checkbox" id="salmos-6">6</label>
+                    <label><input type="checkbox" id="salmos-7">7</label>
+                    <label><input type="checkbox" id="salmos-8">8</label>
+                    <label><input type="checkbox" id="salmos-9">9</label>
+                    <label><input type="checkbox" id="salmos-10">10</label>
+                    <label><input type="checkbox" id="salmos-11">11</label>
+                    <label><input type="checkbox" id="salmos-12">12</label>
+                    <label><input type="checkbox" id="salmos-13">13</label>
+                    <label><input type="checkbox" id="salmos-14">14</label>
+                    <label><input type="checkbox" id="salmos-15">15</label>
+                    <label><input type="checkbox" id="salmos-16">16</label>
+                    <label><input type="checkbox" id="salmos-17">17</label>
+                    <label><input type="checkbox" id="salmos-18">18</label>
+                    <label><input type="checkbox" id="salmos-19">19</label>
+                    <label><input type="checkbox" id="salmos-20">20</label>
+                    <label><input type="checkbox" id="salmos-21">21</label>
+                    <label><input type="checkbox" id="salmos-22">22</label>
+                    <label><input type="checkbox" id="salmos-23">23</label>
+                    <label><input type="checkbox" id="salmos-24">24</label>
+                    <label><input type="checkbox" id="salmos-25">25</label>
+                    <label><input type="checkbox" id="salmos-26">26</label>
+                    <label><input type="checkbox" id="salmos-27">27</label>
+                    <label><input type="checkbox" id="salmos-28">28</label>
+                    <label><input type="checkbox" id="salmos-29">29</label>
+                    <label><input type="checkbox" id="salmos-30">30</label>
+                    <label><input type="checkbox" id="salmos-31">31</label>
+                    <label><input type="checkbox" id="salmos-32">32</label>
+                    <label><input type="checkbox" id="salmos-33">33</label>
+                    <label><input type="checkbox" id="salmos-34">34</label>
+                    <label><input type="checkbox" id="salmos-35">35</label>
+                    <label><input type="checkbox" id="salmos-36">36</label>
+                    <label><input type="checkbox" id="salmos-37">37</label>
+                    <label><input type="checkbox" id="salmos-38">38</label>
+                    <label><input type="checkbox" id="salmos-39">39</label>
+                    <label><input type="checkbox" id="salmos-40">40</label>
+                    <label><input type="checkbox" id="salmos-41">41</label>
+                    <label><input type="checkbox" id="salmos-42">42</label>
+                    <label><input type="checkbox" id="salmos-43">43</label>
+                    <label><input type="checkbox" id="salmos-44">44</label>
+                    <label><input type="checkbox" id="salmos-45">45</label>
+                    <label><input type="checkbox" id="salmos-46">46</label>
+                    <label><input type="checkbox" id="salmos-47">47</label>
+                    <label><input type="checkbox" id="salmos-48">48</label>
+                    <label><input type="checkbox" id="salmos-49">49</label>
+                    <label><input type="checkbox" id="salmos-50">50</label>
+                    <label><input type="checkbox" id="salmos-51">51</label>
+                    <label><input type="checkbox" id="salmos-52">52</label>
+                    <label><input type="checkbox" id="salmos-53">53</label>
+                    <label><input type="checkbox" id="salmos-54">54</label>
+                    <label><input type="checkbox" id="salmos-55">55</label>
+                    <label><input type="checkbox" id="salmos-56">56</label>
+                    <label><input type="checkbox" id="salmos-57">57</label>
+                    <label><input type="checkbox" id="salmos-58">58</label>
+                    <label><input type="checkbox" id="salmos-59">59</label>
+                    <label><input type="checkbox" id="salmos-60">60</label>
+                    <label><input type="checkbox" id="salmos-61">61</label>
+                    <label><input type="checkbox" id="salmos-62">62</label>
+                    <label><input type="checkbox" id="salmos-63">63</label>
+                    <label><input type="checkbox" id="salmos-64">64</label>
+                    <label><input type="checkbox" id="salmos-65">65</label>
+                    <label><input type="checkbox" id="salmos-66">66</label>
+                    <label><input type="checkbox" id="salmos-67">67</label>
+                    <label><input type="checkbox" id="salmos-68">68</label>
+                    <label><input type="checkbox" id="salmos-69">69</label>
+                    <label><input type="checkbox" id="salmos-70">70</label>
+                    <label><input type="checkbox" id="salmos-71">71</label>
+                    <label><input type="checkbox" id="salmos-72">72</label>
+                    <label><input type="checkbox" id="salmos-73">73</label>
+                    <label><input type="checkbox" id="salmos-74">74</label>
+                    <label><input type="checkbox" id="salmos-75">75</label>
+                    <label><input type="checkbox" id="salmos-76">76</label>
+                    <label><input type="checkbox" id="salmos-77">77</label>
+                    <label><input type="checkbox" id="salmos-78">78</label>
+                    <label><input type="checkbox" id="salmos-79">79</label>
+                    <label><input type="checkbox" id="salmos-80">80</label>
+                    <label><input type="checkbox" id="salmos-81">81</label>
+                    <label><input type="checkbox" id="salmos-82">82</label>
+                    <label><input type="checkbox" id="salmos-83">83</label>
+                    <label><input type="checkbox" id="salmos-84">84</label>
+                    <label><input type="checkbox" id="salmos-85">85</label>
+                    <label><input type="checkbox" id="salmos-86">86</label>
+                    <label><input type="checkbox" id="salmos-87">87</label>
+                    <label><input type="checkbox" id="salmos-88">88</label>
+                    <label><input type="checkbox" id="salmos-89">89</label>
+                    <label><input type="checkbox" id="salmos-90">90</label>
+                    <label><input type="checkbox" id="salmos-91">91</label>
+                    <label><input type="checkbox" id="salmos-92">92</label>
+                    <label><input type="checkbox" id="salmos-93">93</label>
+                    <label><input type="checkbox" id="salmos-94">94</label>
+                    <label><input type="checkbox" id="salmos-95">95</label>
+                    <label><input type="checkbox" id="salmos-96">96</label>
+                    <label><input type="checkbox" id="salmos-97">97</label>
+                    <label><input type="checkbox" id="salmos-98">98</label>
+                    <label><input type="checkbox" id="salmos-99">99</label>
+                    <label><input type="checkbox" id="salmos-100">100</label>
+                    <label><input type="checkbox" id="salmos-101">101</label>
+                    <label><input type="checkbox" id="salmos-102">102</label>
+                    <label><input type="checkbox" id="salmos-103">103</label>
+                    <label><input type="checkbox" id="salmos-104">104</label>
+                    <label><input type="checkbox" id="salmos-105">105</label>
+                    <label><input type="checkbox" id="salmos-106">106</label>
+                    <label><input type="checkbox" id="salmos-107">107</label>
+                    <label><input type="checkbox" id="salmos-108">108</label>
+                    <label><input type="checkbox" id="salmos-109">109</label>
+                    <label><input type="checkbox" id="salmos-110">110</label>
+                    <label><input type="checkbox" id="salmos-111">111</label>
+                    <label><input type="checkbox" id="salmos-112">112</label>
+                    <label><input type="checkbox" id="salmos-113">113</label>
+                    <label><input type="checkbox" id="salmos-114">114</label>
+                    <label><input type="checkbox" id="salmos-115">115</label>
+                    <label><input type="checkbox" id="salmos-116">116</label>
+                    <label><input type="checkbox" id="salmos-117">117</label>
+                    <label><input type="checkbox" id="salmos-118">118</label>
+                    <label><input type="checkbox" id="salmos-119">119</label>
+                    <label><input type="checkbox" id="salmos-120">120</label>
+                    <label><input type="checkbox" id="salmos-121">121</label>
+                    <label><input type="checkbox" id="salmos-122">122</label>
+                    <label><input type="checkbox" id="salmos-123">123</label>
+                    <label><input type="checkbox" id="salmos-124">124</label>
+                    <label><input type="checkbox" id="salmos-125">125</label>
+                    <label><input type="checkbox" id="salmos-126">126</label>
+                    <label><input type="checkbox" id="salmos-127">127</label>
+                    <label><input type="checkbox" id="salmos-128">128</label>
+                    <label><input type="checkbox" id="salmos-129">129</label>
+                    <label><input type="checkbox" id="salmos-130">130</label>
+                    <label><input type="checkbox" id="salmos-131">131</label>
+                    <label><input type="checkbox" id="salmos-132">132</label>
+                    <label><input type="checkbox" id="salmos-133">133</label>
+                    <label><input type="checkbox" id="salmos-134">134</label>
+                    <label><input type="checkbox" id="salmos-135">135</label>
+                    <label><input type="checkbox" id="salmos-136">136</label>
+                    <label><input type="checkbox" id="salmos-137">137</label>
+                    <label><input type="checkbox" id="salmos-138">138</label>
+                    <label><input type="checkbox" id="salmos-139">139</label>
+                    <label><input type="checkbox" id="salmos-140">140</label>
+                    <label><input type="checkbox" id="salmos-141">141</label>
+                    <label><input type="checkbox" id="salmos-142">142</label>
+                    <label><input type="checkbox" id="salmos-143">143</label>
+                    <label><input type="checkbox" id="salmos-144">144</label>
+                    <label><input type="checkbox" id="salmos-145">145</label>
+                    <label><input type="checkbox" id="salmos-146">146</label>
+                    <label><input type="checkbox" id="salmos-147">147</label>
+                    <label><input type="checkbox" id="salmos-148">148</label>
+                    <label><input type="checkbox" id="salmos-149">149</label>
+                    <label><input type="checkbox" id="salmos-150">150</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Provérbios</summary>
+                <div class="chapter-grid">
+                    <!--Provérbios tem 31 capítulos-->
+                    <label><input type="checkbox" id="proverbios-1">1</label>
+                    <label><input type="checkbox" id="proverbios-2">2</label>
+                    <label><input type="checkbox" id="proverbios-3">3</label>
+                    <label><input type="checkbox" id="proverbios-4">4</label>
+                    <label><input type="checkbox" id="proverbios-5">5</label>
+                    <label><input type="checkbox" id="proverbios-6">6</label>
+                    <label><input type="checkbox" id="proverbios-7">7</label>
+                    <label><input type="checkbox" id="proverbios-8">8</label>
+                    <label><input type="checkbox" id="proverbios-9">9</label>
+                    <label><input type="checkbox" id="proverbios-10">10</label>
+                    <label><input type="checkbox" id="proverbios-11">11</label>
+                    <label><input type="checkbox" id="proverbios-12">12</label>
+                    <label><input type="checkbox" id="proverbios-13">13</label>
+                    <label><input type="checkbox" id="proverbios-14">14</label>
+                    <label><input type="checkbox" id="proverbios-15">15</label>
+                    <label><input type="checkbox" id="proverbios-16">16</label>
+                    <label><input type="checkbox" id="proverbios-17">17</label>
+                    <label><input type="checkbox" id="proverbios-18">18</label>
+                    <label><input type="checkbox" id="proverbios-19">19</label>
+                    <label><input type="checkbox" id="proverbios-20">20</label>
+                    <label><input type="checkbox" id="proverbios-21">21</label>
+                    <label><input type="checkbox" id="proverbios-22">22</label>
+                    <label><input type="checkbox" id="proverbios-23">23</label>
+                    <label><input type="checkbox" id="proverbios-24">24</label>
+                    <label><input type="checkbox" id="proverbios-25">25</label>
+                    <label><input type="checkbox" id="proverbios-26">26</label>
+                    <label><input type="checkbox" id="proverbios-27">27</label>
+                    <label><input type="checkbox" id="proverbios-28">28</label>
+                    <label><input type="checkbox" id="proverbios-29">29</label>
+                    <label><input type="checkbox" id="proverbios-30">30</label>
+                    <label><input type="checkbox" id="proverbios-31">31</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Eclesiastes</summary>
+                <div class="chapter-grid">
+                    <!--Eclesiastes tem 12 capítulos-->
+                    <label><input type="checkbox" id="eclesiastes-1">1</label>
+                    <label><input type="checkbox" id="eclesiastes-2">2</label>
+                    <label><input type="checkbox" id="eclesiastes-3">3</label>
+                    <label><input type="checkbox" id="eclesiastes-4">4</label>
+                    <label><input type="checkbox" id="eclesiastes-5">5</label>
+                    <label><input type="checkbox" id="eclesiastes-6">6</label>
+                    <label><input type="checkbox" id="eclesiastes-7">7</label>
+                    <label><input type="checkbox" id="eclesiastes-8">8</label>
+                    <label><input type="checkbox" id="eclesiastes-9">9</label>
+                    <label><input type="checkbox" id="eclesiastes-10">10</label>
+                    <label><input type="checkbox" id="eclesiastes-11">11</label>
+                    <label><input type="checkbox" id="eclesiastes-12">12</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Cantares de Salomão</summary>
+                <div class="chapter-grid">
+                    <!--Cantares de Salomão tem 8 capítulos-->
+                    <label><input type="checkbox" id="cantares-1">1</label> 
+                    <label><input type="checkbox" id="cantares-2">2</label>
+                    <label><input type="checkbox" id="cantares-3">3</label>
+                    <label><input type="checkbox" id="cantares-4">4</label>
+                    <label><input type="checkbox" id="cantares-5">5</label>
+                    <label><input type="checkbox" id="cantares-6">6</label>
+                    <label><input type="checkbox" id="cantares-7">7</label>
+                    <label><input type="checkbox" id="cantares-8">8</label>
+                </div>
+            </details>
+
+            <h3>Profetas Maiores</h3>
+
+            <details>
+                <summary>Isaías</summary>
+                <div class="chapter-grid">
+                    <!--Isaías tem 66 capítulos-->
+                    <label><input type="checkbox" id="isaías-1">1</label>
+                    <label><input type="checkbox" id="isaías-2">2</label>
+                    <label><input type="checkbox" id="isaías-3">3</label>
+                    <label><input type="checkbox" id="isaías-4">4</label>
+                    <label><input type="checkbox" id="isaías-5">5</label>
+                    <label><input type="checkbox" id="isaías-6">6</label>
+                    <label><input type="checkbox" id="isaías-7">7</label>
+                    <label><input type="checkbox" id="isaías-8">8</label>
+                    <label><input type="checkbox" id="isaías-9">9</label>
+                    <label><input type="checkbox" id="isaías-10">10</label>
+                    <label><input type="checkbox" id="isaías-11">11</label>
+                    <label><input type="checkbox" id="isaías-12">12</label>
+                    <label><input type="checkbox" id="isaías-13">13</label>
+                    <label><input type="checkbox" id="isaías-14">14</label>
+                    <label><input type="checkbox" id="isaías-15">15</label>
+                    <label><input type="checkbox" id="isaías-16">16</label>
+                    <label><input type="checkbox" id="isaías-17">17</label>
+                    <label><input type="checkbox" id="isaías-18">18</label>
+                    <label><input type="checkbox" id="isaías-19">19</label>
+                    <label><input type="checkbox" id="isaías-20">20</label>
+                    <label><input type="checkbox" id="isaías-21">21</label>
+                    <label><input type="checkbox" id="isaías-22">22</label>
+                    <label><input type="checkbox" id="isaías-23">23</label>
+                    <label><input type="checkbox" id="isaías-24">24</label>
+                    <label><input type="checkbox" id="isaías-25">25</label>
+                    <label><input type="checkbox" id="isaías-26">26</label>
+                    <label><input type="checkbox" id="isaías-27">27</label>
+                    <label><input type="checkbox" id="isaías-28">28</label>
+                    <label><input type="checkbox" id="isaías-29">29</label>
+                    <label><input type="checkbox" id="isaías-30">30</label>
+                    <label><input type="checkbox" id="isaías-31">31</label>
+                    <label><input type="checkbox" id="isaías-32">32</label>
+                    <label><input type="checkbox" id="isaías-33">33</label>
+                    <label><input type="checkbox" id="isaías-34">34</label>
+                    <label><input type="checkbox" id="isaías-35">35</label>
+                    <label><input type="checkbox" id="isaías-36">36</label>
+                    <label><input type="checkbox" id="isaías-37">37</label>
+                    <label><input type="checkbox" id="isaías-38">38</label>
+                    <label><input type="checkbox" id="isaías-39">39</label>
+                    <label><input type="checkbox" id="isaías-40">40</label>
+                    <label><input type="checkbox" id="isaías-41">41</label>
+                    <label><input type="checkbox" id="isaías-42">42</label>
+                    <label><input type="checkbox" id="isaías-43">43</label>
+                    <label><input type="checkbox" id="isaías-44">44</label>
+                    <label><input type="checkbox" id="isaías-45">45</label>
+                    <label><input type="checkbox" id="isaías-46">46</label>
+                    <label><input type="checkbox" id="isaías-47">47</label>
+                    <label><input type="checkbox" id="isaías-48">48</label>
+                    <label><input type="checkbox" id="isaías-49">49</label>
+                    <label><input type="checkbox" id="isaías-50">50</label>
+                    <label><input type="checkbox" id="isaías-51">51</label>
+                    <label><input type="checkbox" id="isaías-52">52</label>
+                    <label><input type="checkbox" id="isaías-53">53</label>
+                    <label><input type="checkbox" id="isaías-54">54</label>
+                    <label><input type="checkbox" id="isaías-55">55</label>
+                    <label><input type="checkbox" id="isaías-56">56</label>
+                    <label><input type="checkbox" id="isaías-57">57</label>
+                    <label><input type="checkbox" id="isaías-58">58</label>
+                    <label><input type="checkbox" id="isaías-59">59</label>
+                    <label><input type="checkbox" id="isaías-60">60</label>
+                    <label><input type="checkbox" id="isaías-61">61</label>
+                    <label><input type="checkbox" id="isaías-62">62</label>
+                    <label><input type="checkbox" id="isaías-63">63</label>
+                    <label><input type="checkbox" id="isaías-64">64</label>
+                    <label><input type="checkbox" id="isaías-65">65</label>
+                    <label><input type="checkbox" id="isaías-66">66</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Jeremías</summary>
+                <div class="chapter-grid">
+                    <!--Jeremias tem 52 Capítulos-->
+                    <label><input type="checkbox" id="jeremías-1">1</label>
+                    <label><input type="checkbox" id="jeremías-2">2</label>
+                    <label><input type="checkbox" id="jeremías-3">3</label>
+                    <label><input type="checkbox" id="jeremías-4">4</label>
+                    <label><input type="checkbox" id="jeremías-5">5</label>
+                    <label><input type="checkbox" id="jeremías-6">6</label>
+                    <label><input type="checkbox" id="jeremías-7">7</label>
+                    <label><input type="checkbox" id="jeremías-8">8</label>
+                    <label><input type="checkbox" id="jeremías-9">9</label>
+                    <label><input type="checkbox" id="jeremías-10">10</label>
+                    <label><input type="checkbox" id="jeremías-11">11</label>
+                    <label><input type="checkbox" id="jeremías-12">12</label>
+                    <label><input type="checkbox" id="jeremías-13">13</label>
+                    <label><input type="checkbox" id="jeremías-14">14</label>
+                    <label><input type="checkbox" id="jeremías-15">15</label>
+                    <label><input type="checkbox" id="jeremías-16">16</label>
+                    <label><input type="checkbox" id="jeremías-17">17</label>
+                    <label><input type="checkbox" id="jeremías-18">18</label>
+                    <label><input type="checkbox" id="jeremías-19">19</label>
+                    <label><input type="checkbox" id="jeremías-20">20</label>
+                    <label><input type="checkbox" id="jeremías-21">21</label>
+                    <label><input type="checkbox" id="jeremías-22">22</label>
+                    <label><input type="checkbox" id="jeremías-23">23</label>
+                    <label><input type="checkbox" id="jeremías-24">24</label>
+                    <label><input type="checkbox" id="jeremías-25">25</label>
+                    <label><input type="checkbox" id="jeremías-26">26</label>
+                    <label><input type="checkbox" id="jeremías-27">27</label>
+                    <label><input type="checkbox" id="jeremías-28">28</label>
+                    <label><input type="checkbox" id="jeremías-29">29</label>
+                    <label><input type="checkbox" id="jeremías-30">30</label>
+                    <label><input type="checkbox" id="jeremías-31">31</label>
+                    <label><input type="checkbox" id="jeremías-32">32</label>
+                    <label><input type="checkbox" id="jeremías-33">33</label>
+                    <label><input type="checkbox" id="jeremías-34">34</label>
+                    <label><input type="checkbox" id="jeremías-35">35</label>
+                    <label><input type="checkbox" id="jeremías-36">36</label>
+                    <label><input type="checkbox" id="jeremías-37">37</label>
+                    <label><input type="checkbox" id="jeremías-38">38</label>
+                    <label><input type="checkbox" id="jeremías-39">39</label>
+                    <label><input type="checkbox" id="jeremías-40">40</label>
+                    <label><input type="checkbox" id="jeremías-41">41</label>
+                    <label><input type="checkbox" id="jeremías-42">42</label>
+                    <label><input type="checkbox" id="jeremías-43">43</label>
+                    <label><input type="checkbox" id="jeremías-44">44</label>
+                    <label><input type="checkbox" id="jeremías-45">45</label>
+                    <label><input type="checkbox" id="jeremías-46">46</label>
+                    <label><input type="checkbox" id="jeremías-47">47</label>
+                    <label><input type="checkbox" id="jeremías-48">48</label>
+                    <label><input type="checkbox" id="jeremías-49">49</label>
+                    <label><input type="checkbox" id="jeremías-50">50</label>
+                    <label><input type="checkbox" id="jeremías-51">51</label>
+                    <label><input type="checkbox" id="jeremías-52">52</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Lamentações de Jeremias</summary>
+                <div class="chapter-grid">
+                    <!--Lamentações de Jeremias tem 5 capítulos-->
+                    <label><input type="checkbox" id="lamentações-1">1</label>
+                    <label><input type="checkbox" id="lamentações-2">2</label>
+                    <label><input type="checkbox" id="lamentações-3">3</label>
+                    <label><input type="checkbox" id="lamentações-4">4</label>
+                    <label><input type="checkbox" id="lamentações-5">5</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Ezequiel</summary>
+                <div class="chapter-grid">
+                    <!--Ezequiel tem 48 capítulos-->
+                    <label><input type="checkbox" id="ezequiel-1">1</label>
+                    <label><input type="checkbox" id="ezequiel-2">2</label>
+                    <label><input type="checkbox" id="ezequiel-3">3</label>
+                    <label><input type="checkbox" id="ezequiel-4">4</label>
+                    <label><input type="checkbox" id="ezequiel-5">5</label>
+                    <label><input type="checkbox" id="ezequiel-6">6</label>
+                    <label><input type="checkbox" id="ezequiel-7">7</label>
+                    <label><input type="checkbox" id="ezequiel-8">8</label>
+                    <label><input type="checkbox" id="ezequiel-9">9</label>
+                    <label><input type="checkbox" id="ezequiel-10">10</label>
+                    <label><input type="checkbox" id="ezequiel-11">11</label>
+                    <label><input type="checkbox" id="ezequiel-12">12</label>
+                    <label><input type="checkbox" id="ezequiel-13">13</label>
+                    <label><input type="checkbox" id="ezequiel-14">14</label>
+                    <label><input type="checkbox" id="ezequiel-15">15</label>
+                    <label><input type="checkbox" id="ezequiel-16">16</label>
+                    <label><input type="checkbox" id="ezequiel-17">17</label>
+                    <label><input type="checkbox" id="ezequiel-18">18</label>
+                    <label><input type="checkbox" id="ezequiel-19">19</label>
+                    <label><input type="checkbox" id="ezequiel-20">20</label>
+                    <label><input type="checkbox" id="ezequiel-21">21</label>
+                    <label><input type="checkbox" id="ezequiel-22">22</label>
+                    <label><input type="checkbox" id="ezequiel-23">23</label>
+                    <label><input type="checkbox" id="ezequiel-24">24</label>
+                    <label><input type="checkbox" id="ezequiel-25">25</label>
+                    <label><input type="checkbox" id="ezequiel-26">26</label>
+                    <label><input type="checkbox" id="ezequiel-27">27</label>
+                    <label><input type="checkbox" id="ezequiel-28">28</label>
+                    <label><input type="checkbox" id="ezequiel-29">29</label>
+                    <label><input type="checkbox" id="ezequiel-30">30</label>
+                    <label><input type="checkbox" id="ezequiel-31">31</label>
+                    <label><input type="checkbox" id="ezequiel-32">32</label>
+                    <label><input type="checkbox" id="ezequiel-33">33</label>
+                    <label><input type="checkbox" id="ezequiel-34">34</label>
+                    <label><input type="checkbox" id="ezequiel-35">35</label>
+                    <label><input type="checkbox" id="ezequiel-36">36</label>
+                    <label><input type="checkbox" id="ezequiel-37">37</label>
+                    <label><input type="checkbox" id="ezequiel-38">38</label>
+                    <label><input type="checkbox" id="ezequiel-39">39</label>
+                    <label><input type="checkbox" id="ezequiel-40">40</label>
+                    <label><input type="checkbox" id="ezequiel-41">41</label>
+                    <label><input type="checkbox" id="ezequiel-42">42</label>
+                    <label><input type="checkbox" id="ezequiel-43">43</label>
+                    <label><input type="checkbox" id="ezequiel-44">44</label>
+                    <label><input type="checkbox" id="ezequiel-45">45</label>
+                    <label><input type="checkbox" id="ezequiel-46">46</label>
+                    <label><input type="checkbox" id="ezequiel-47">47</label>
+                    <label><input type="checkbox" id="ezequiel-48">48</label>
+                </div>
+            </details>
+
+            <datalist>
+                <summary>Daniel</summary>
+                <div class="chapter-grid">
+                <!--Daniel tem 12 capítulos-->
+                <label><input type="checkbox" id="daniel-1">1</label>
+                <label><input type="checkbox" id="daniel-2">2</label>
+                <label><input type="checkbox" id="daniel-3">3</label>
+                <label><input type="checkbox" id="daniel-4">4</label>
+                <label><input type="checkbox" id="daniel-5">5</label>
+                <label><input type="checkbox" id="daniel-6">6</label>
+                <label><input type="checkbox" id="daniel-7">7</label>
+                <label><input type="checkbox" id="daniel-8">8</label>
+                <label><input type="checkbox" id="daniel-9">9</label>
+                <label><input type="checkbox" id="daniel-10">10</label>
+                <label><input type="checkbox" id="daniel-11">11</label>
+                <label><input type="checkbox" id="daniel-12">12</label>
+                </div>
+            </datalist>
+
+            <h3>Profetas Menores</h3>
+
+            <details>
+                <summary>Oseias</summary>
+                <div class="chapter-grid">
+                    <!--Oseias tem 14 capítulos-->
+                    <label><input type="checkbox" id="oseias-1">1</label>
+                    <label><input type="checkbox" id="oseias-2">2</label>
+                    <label><input type="checkbox" id="oseias-3">3</label>
+                    <label><input type="checkbox" id="oseias-4">4</label>
+                    <label><input type="checkbox" id="oseias-5">5</label>
+                    <label><input type="checkbox" id="oseias-6">6</label>
+                    <label><input type="checkbox" id="oseias-7">7</label>
+                    <label><input type="checkbox" id="oseias-8">8</label>
+                    <label><input type="checkbox" id="oseias-9">9</label>
+                    <label><input type="checkbox" id="oseias-10">10</label>
+                    <label><input type="checkbox" id="oseias-11">11</label>
+                    <label><input type="checkbox" id="oseias-12">12</label>
+                    <label><input type="checkbox" id="oseias-13">13</label>
+                    <label><input type="checkbox" id="oseias-14">14</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Joel</summary>
+                <div class="chapter-grid">
+                    <!--Joel tem 3 capítulos-->
+                    <label><input type="checkbox" id="joel-1">1</label>
+                    <label><input type="checkbox" id="joel-2">2</label>
+                    <label><input type="checkbox" id="joel-3">3</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Amós</summary>
+                <div class="chapter-grid">
+                    <!--Amós tem 9 capítulos-->
+                    <label><input type="checkbox" id="amos-1">1</label>
+                    <label><input type="checkbox" id="amos-2">2</label>
+                    <label><input type="checkbox" id="amos-3">3</label>
+                    <label><input type="checkbox" id="amos-4">4</label>
+                    <label><input type="checkbox" id="amos-5">5</label>
+                    <label><input type="checkbox" id="amos-6">6</label>
+                    <label><input type="checkbox" id="amos-7">7</label>
+                    <label><input type="checkbox" id="amos-8">8</label>
+                    <label><input type="checkbox" id="amos-9">9</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Obadias</summary>
+                <div class="chapter-grid">
+                    <!--Obadias tem 1 capítulo-->
+                    <label><input type="checkbox" id="obadias-1">1</label>
+                </div>
+            </details>
+
+            <datalist>
+                <summary>Jonas</summary>
+                <div class="chapter-grid">
+                    <!--Jonas tem 4 capítulos-->
+                    <label><input type="checkbox" id="jonas-1">1</label>
+                    <label><input type="checkbox" id="jonas-2">2</label>
+                    <label><input type="checkbox" id="jonas-3">3</label>
+                    <label><input type="checkbox" id="jonas-4">4</label>
+                </div>
+            </datalist>
+
+            <details> 
+                <summary>Miqueias</summary>
+                <div class="chapter-grid">
+                    <!--Miqueias tem 7 capítulos-->
+                    <label><input type="checkbox" id="miqueias-1">1</label>
+                    <label><input type="checkbox" id="miqueias-2">2</label>
+                    <label><input type="checkbox" id="miqueias-3">3</label>
+                    <label><input type="checkbox" id="miqueias-4">4</label>
+                    <label><input type="checkbox" id="miqueias-5">5</label>
+                    <label><input type="checkbox" id="miqueias-6">6</label>
+                    <label><input type="checkbox" id="miqueias-7">7</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Naum</summary>
+                <div class="chapter-grid">
+                    <!--Naum tem 3 capítulos-->
+                    <label><input type="checkbox" id="naum-1">1</label>
+                    <label><input type="checkbox" id="naum-2">2</label>
+                    <label><input type="checkbox" id="naum-3">3</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Habacuque</summary>
+                <div class="chapter-grid">
+                    <!--Habacuque tem 3 capítulos-->
+                    <label><input type="checkbox" id="habacuque-1">1</label>
+                    <label><input type="checkbox" id="habacuque-2">2</label>
+                    <label><input type="checkbox" id="habacuque-3">3</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Sofonias</summary>
+                <div class="chapter-grid">
+                    <!--Sofonias tem 3 capítulos-->
+                    <label><input type="checkbox" id="sofonias-1">1</label>
+                    <label><input type="checkbox" id="sofonias-2">2</label>
+                    <label><input type="checkbox" id="sofonias-3">3</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Ageu</summary>
+                <div class="chapter-grid">
+                    <!--Ageu tem 2 capítulos-->
+                    <label><input type="checkbox" id="ageu-1">1</label>
+                    <label><input type="checkbox" id="ageu-2">2</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Zacarias</summary>
+                <div class="chapter-grid">
+                    <!--Zacarias tem 14 capítulos-->
+                    <label><input type="checkbox" id="zacarias-1">1</label>
+                    <label><input type="checkbox" id="zacarias-2">2</label>
+                    <label><input type="checkbox" id="zacarias-3">3</label>
+                    <label><input type="checkbox" id="zacarias-4">4</label>
+                    <label><input type="checkbox" id="zacarias-5">5</label>
+                    <label><input type="checkbox" id="zacarias-6">6</label>
+                    <label><input type="checkbox" id="zacarias-7">7</label>
+                    <label><input type="checkbox" id="zacarias-8">8</label>
+                    <label><input type="checkbox" id="zacarias-9">9</label>
+                    <label><input type="checkbox" id="zacarias-10">10</label>
+                    <label><input type="checkbox" id="zacarias-11">11</label>
+                    <label><input type="checkbox" id="zacarias-12">12</label>
+                    <label><input type="checkbox" id="zacarias-13">13</label>
+                    <label><input type="checkbox" id="zacarias-14">14</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Malaquias</summary>
+                <div class="chapter-grid">
+                    <!--Malaquias tem 4 capítulos-->
+                    <label><input type="checkbox" id="malaquias-1">1</label>
+                    <label><input type="checkbox" id="malaquias-2">2</label>
+                    <label><input type="checkbox" id="malaquias-3">3</label>
+                    <label><input type="checkbox" id="malaquias-4">4</label>
+                </div>
+            </details>
+            
+
+            <!-- Outros livros do Antigo Testamento -->
+
+            <h2>Novo Testamento</h2>
+            <h3>Evangelhos</h3>
+
+            <details>
+                <summary>Mateus</summary>
+                <div class="chapter-grid">
+                    <!-- Mateus tem 28 capítulos -->
+                    <label><input type="checkbox" id="mateus-1"> 1</label>
+                    <label><input type="checkbox" id="mateus-2"> 2</label>
+                    <label><input type="checkbox" id="mateus-3"> 3</label>
+                    <label><input type="checkbox" id="mateus-4"> 4</label>
+                    <label><input type="checkbox" id="mateus-5"> 5</label>
+                    <label><input type="checkbox" id="mateus-6"> 6</label>
+                    <label><input type="checkbox" id="mateus-7"> 7</label>
+                    <label><input type="checkbox" id="mateus-8"> 8</label>
+                    <label><input type="checkbox" id="mateus-9"> 9</label>
+                    <label><input type="checkbox" id="mateus-10"> 10</label>
+                    <label><input type="checkbox" id="mateus-11"> 11</label>
+                    <label><input type="checkbox" id="mateus-12"> 12</label>
+                    <label><input type="checkbox" id="mateus-13"> 13</label>
+                    <label><input type="checkbox" id="mateus-14"> 14</label>
+                    <label><input type="checkbox" id="mateus-15"> 15</label>
+                    <label><input type="checkbox" id="mateus-16"> 16</label>
+                    <label><input type="checkbox" id="mateus-17"> 17</label>
+                    <label><input type="checkbox" id="mateus-18"> 18</label>
+                    <label><input type="checkbox" id="mateus-19"> 19</label>
+                    <label><input type="checkbox" id="mateus-20"> 20</label>
+                    <label><input type="checkbox" id="mateus-21"> 21</label>
+                    <label><input type="checkbox" id="mateus-22"> 22</label>
+                    <label><input type="checkbox" id="mateus-23"> 23</label>
+                    <label><input type="checkbox" id="mateus-24"> 24</label>
+                    <label><input type="checkbox" id="mateus-25"> 25</label>
+                    <label><input type="checkbox" id="mateus-26"> 26</label>
+                    <label><input type="checkbox" id="mateus-27"> 27</label>
+                    <label><input type="checkbox" id="mateus-28"> 28</label>
+                    <!-- Continue até 28 -->
+                </div>
+            </details>
+
+            <details>
+                <summary>Marcos</summary>
+                <div class="chapter-grid">
+                    <!-- Marcos tem 16 capítulos -->
+                     <label><input type="checkbox" id="marcos-1"> 1</label>
+                     <label><input type="checkbox" id="marcos-2"> 2</label>
+                     <label><input type="checkbox" id="marcos-3"> 3</label>
+                     <label><input type="checkbox" id="marcos-4"> 4</label>
+                     <label><input type="checkbox" id="marcos-5"> 5</label>
+                     <label><input type="checkbox" id="marcos-6"> 6</label>
+                     <label><input type="checkbox" id="marcos-7"> 7</label>
+                     <label><input type="checkbox" id="marcos-8"> 8</label>
+                     <label><input type="checkbox" id="marcos-9"> 9</label>
+                     <label><input type="checkbox" id="marcos-10"> 10</label>
+                     <label><input type="checkbox" id="marcos-11"> 11</label>
+                     <label><input type="checkbox" id="marcos-12"> 12</label>
+                     <label><input type="checkbox" id="marcos-13"> 13</label>
+                     <label><input type="checkbox" id="marcos-14"> 14</label>
+                     <label><input type="checkbox" id="marcos-15"> 15</label>
+                     <label><input type="checkbox" id="marcos-16"> 16</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>Lucas</summary>
+                <div class="chapter-grid">
+                    <!-- Lucas tem 24 capítulos -->
+                     <label><input type="checkbox" id="lucas-1"> 1</label>
+                     <label><input type="checkbox" id="lucas-2"> 2</label>
+                     <label><input type="checkbox" id="lucas-3"> 3</label>
+                     <label><input type="checkbox" id="lucas-4"> 4</label>
+                     <label><input type="checkbox" id="lucas-5"> 5</label>
+                     <label><input type="checkbox" id="lucas-6"> 6</label>
+                     <label><input type="checkbox" id="lucas-7"> 7</label>
+                     <label><input type="checkbox" id="lucas-8"> 8</label>
+                     <label><input type="checkbox" id="lucas-9"> 9</label>
+                     <label><input type="checkbox" id="lucas-10"> 10</label>
+                     <label><input type="checkbox" id="lucas-11"> 11</label>
+                     <label><input type="checkbox" id="lucas-12"> 12</label>
+                     <label><input type="checkbox" id="lucas-13"> 13</label>
+                     <label><input type="checkbox" id="lucas-14"> 14</label>
+                     <label><input type="checkbox" id="lucas-15"> 15</label>
+                     <label><input type="checkbox" id="lucas-16"> 16</label>
+                     <label><input type="checkbox" id="lucas-17"> 17</label>
+                     <label><input type="checkbox" id="lucas-18"> 18</label>
+                     <label><input type="checkbox" id="lucas-19"> 19</label>
+                     <label><input type="checkbox" id="lucas-20"> 20</label>
+                     <label><input type="checkbox" id="lucas-21"> 21</label>
+                     <label><input type="checkbox" id="lucas-22"> 22</label>
+                     <label><input type="checkbox" id="lucas-23"> 23</label>
+                     <label><input type="checkbox" id="lucas-24"> 24</label>
+                </div>
+            </details>
+
+            <details>
+                <summary>João</summary>
+                <div class="chapter-grid">
+                    <!-- João tem 21 capítulos -->
+                    <label><input type="checkbox" id="joao-1"> 1</label>
+                    <label><input type="checkbox" id="joao-2"> 2</label>
+                    <label><input type="checkbox" id="joao-3"> 3</label>
+                    <label><input type="checkbox" id="joao-4"> 4</label>
+                    <label><input type="checkbox" id="joao-5"> 5</label>
+                    <label><input type="checkbox" id="joao-6"> 6</label>
+                    <label><input type="checkbox" id="joao-7"> 7</label>
+                    <label><input type="checkbox" id="joao-8"> 8</label>
+                    <label><input type="checkbox" id="joao-9"> 9</label>
+                    <label><input type="checkbox" id="joao-10"> 10</label>
+                    <label><input type="checkbox" id="joao-11"> 11</label>
+                    <label><input type="checkbox" id="joao-12"> 12</label>
+                    <label><input type="checkbox" id="joao-13"> 13</label>
+                    <label><input type="checkbox" id="joao-14"> 14</label>
+                    <label><input type="checkbox" id="joao-15"> 15</label>
+                    <label><input type="checkbox" id="joao-16"> 16</label>
+                    <label><input type="checkbox" id="joao-17"> 17</label>
+                    <label><input type="checkbox" id="joao-18"> 18</label>
+                    <label><input type="checkbox" id="joao-19"> 19</label>
+                    <label><input type="checkbox" id="joao-20"> 20</label>
+                    <label><input type="checkbox" id="joao-21"> 21</label>
+                    <!-- Continue até 21 -->
+                </div>
+            </details>
+
+            <h3>História</h3>
+
+            <details>
+                <summary>Atos</summary>
+                <div class="chapter-grid">
+                    <!-- Atos tem 28 capítulos -->
+                     <label><input type="checkbox" id="atos-1"> 1</label>
+                     <label><input type="checkbox" id="atos-2"> 2</label>
+                     <label><input type="checkbox" id="atos-3"> 3</label>
+                     <label><input type="checkbox" id="atos-4"> 4</label>
+                     <label><input type="checkbox" id="atos-5"> 5</label>
+                     <label><input type="checkbox" id="atos-6"> 6</label>
+                     <label><input type="checkbox" id="atos-7"> 7</label>
+                     <label><input type="checkbox" id="atos-8"> 8</label>
+                     <label><input type="checkbox" id="atos-9"> 9</label>
+                     <label><input type="checkbox" id="atos-10"> 10</label>
+                     <label><input type="checkbox" id="atos-11"> 11</label>
+                     <label><input type="checkbox" id="atos-12"> 12</label>
+                     <label><input type="checkbox" id="atos-13"> 13</label>
+                     <label><input type="checkbox" id="atos-14"> 14</label>
+                     <label><input type="checkbox" id="atos-15"> 15</label>
+                     <label><input type="checkbox" id="atos-16"> 16</label>
+                     <label><input type="checkbox" id="atos-17"> 17</label>
+                     <label><input type="checkbox" id="atos-18"> 18</label>
+                     <label><input type="checkbox" id="atos-19"> 19</label>
+                     <label><input type="checkbox" id="atos-20"> 20</label>
+                     <label><input type="checkbox" id="atos-21"> 21</label>
+                     <label><input type="checkbox" id="atos-22"> 22</label>
+                     <label><input type="checkbox" id="atos-23"> 23</label>
+                     <label><input type="checkbox" id="atos-24"> 24</label>
+                     <label><input type="checkbox" id="atos-25"> 25</label>
+                     <label><input type="checkbox" id="atos-26"> 26</label>
+                     <label><input type="checkbox" id="atos-27"> 27</label>
+                     <label><input type="checkbox" id="atos-28"> 28</label>
+                </div>
+            </details>
+
+           <h3>Epístolas (Cartas)</h3>
+
+           <details>
+            <summary>Romanos</summary>
+            <div class="chapter-grid">
+                <!-- Romanos tem 16 capítulos -->
+                <label><input type="checkbox" id="romanos-1"> 1</label>
+                <label><input type="checkbox" id="romanos-2"> 2</label>
+                <label><input type="checkbox" id="romanos-3"> 3</label>
+                <label><input type="checkbox" id="romanos-4"> 4</label>
+                <label><input type="checkbox" id="romanos-5"> 5</label>
+                <label><input type="checkbox" id="romanos-6"> 6</label>
+                <label><input type="checkbox" id="romanos-7"> 7</label>
+                <label><input type="checkbox" id="romanos-8"> 8</label>
+                <label><input type="checkbox" id="romanos-9"> 9</label>
+                <label><input type="checkbox" id="romanos-10"> 10</label>
+                <label><input type="checkbox" id="romanos-11"> 11</label>
+                <label><input type="checkbox" id="romanos-12"> 12</label>
+                <label><input type="checkbox" id="romanos-13"> 13</label>
+                <label><input type="checkbox" id="romanos-14"> 14</label>
+                <label><input type="checkbox" id="romanos-15"> 15</label>
+                <label><input type="checkbox" id="romanos-16"> 16</label>                                      
+            </div>
+           </details>
+
+           <details>
+            <summary>1 Corintios</summary>
+            <div class="chapter-grid">
+                <!-- 1 Corintios tem 16 capítulos -->
+                <label><input type="checkbox" id="1cor-1"> 1</label>
+                <label><input type="checkbox" id="1cor-2"> 2</label>
+                <label><input type="checkbox" id="1cor-3"> 3</label>
+                <label><input type="checkbox" id="1cor-4"> 4</label>
+                <label><input type="checkbox" id="1cor-5"> 5</label>
+                <label><input type="checkbox" id="1cor-6"> 6</label>
+                <label><input type="checkbox" id="1cor-7"> 7</label>
+                <label><input type="checkbox" id="1cor-8"> 8</label>
+                <label><input type="checkbox" id="1cor-9"> 9</label>
+                <label><input type="checkbox" id="1cor-10"> 10</label>
+                <label><input type="checkbox" id="1cor-11"> 11</label>
+                <label><input type="checkbox" id="1cor-12"> 12</label>
+                <label><input type="checkbox" id="1cor-13"> 13</label>
+                <label><input type="checkbox" id="1cor-14"> 14</label>
+                <label><input type="checkbox" id="1cor-15"> 15</label>
+                <label><input type="checkbox" id="1cor-16"> 16</label>                                           
+            </div>
+           </details>
+
+           <details>
+            <summary>2 Corintios</summary>
+            <div class="chapter-grid">
+                <!-- 2 Corintios tem 13 capítulos -->
+                <label><input type="checkbox" id="2cor-1"> 1</label>
+                <label><input type="checkbox" id="2cor-2"> 2</label>
+                <label><input type="checkbox" id="2cor-3"> 3</label>
+                <label><input type="checkbox" id="2cor-4"> 4</label>
+                <label><input type="checkbox" id="2cor-5"> 5</label>
+                <label><input type="checkbox" id="2cor-6"> 6</label>
+                <label><input type="checkbox" id="2cor-7"> 7</label>
+                <label><input type="checkbox" id="2cor-8"> 8</label>
+                <label><input type="checkbox" id="2cor-9"> 9</label>
+                <label><input type="checkbox" id="2cor-10"> 10</label>
+                <label><input type="checkbox" id="2cor-11"> 11</label>
+                <label><input type="checkbox" id="2cor-12"> 12</label>
+                <label><input type="checkbox" id="2cor-13"> 13</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>Gálatas</summary>
+            <div class="chapter-grid">
+                <!-- Gálatas tem 6 capítulos -->
+                 <label><input type="checkbox" id="gal-1"> 1</label>
+                 <label><input type="checkbox" id="gal-2"> 2</label>
+                 <label><input type="checkbox" id="gal-3"> 3</label>
+                 <label><input type="checkbox" id="gal-4"> 4</label>
+                 <label><input type="checkbox" id="gal-5"> 5</label>
+                 <label><input type="checkbox" id="gal-6"> 6</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>Efésios</summary>
+            <div class="chapter-grid">
+                <!-- Efésios tem 6 capítulos -->
+                <label><input type="checkbox" id="efes-1"> 1</label>
+                <label><input type="checkbox" id="efes-2"> 2</label>
+                <label><input type="checkbox" id="efes-3"> 3</label>
+                <label><input type="checkbox" id="efes-4"> 4</label>
+                <label><input type="checkbox" id="efes-5"> 5</label>
+                <label><input type="checkbox" id="efes-6"> 6</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>Filipenses</summary>
+            <div class="chapter-grid">
+                <!-- Filipenses tem 4 capítulos -->
+                 <label><input type="checkbox" id="fil-1"> 1</label>
+                 <label><input type="checkbox" id="fil-2"> 2</label>
+                 <label><input type="checkbox" id="fil-3"> 3</label>
+                 <label><input type="checkbox" id="fil-4"> 4</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>Colossenses</summary>
+            <div class="chapter-grid">
+                <!-- Colossenses tem 4 capítulos -->
+                 <label><input type="checkbox" id="col-1"> 1</label>
+                 <label><input type="checkbox" id="col-2"> 2</label>
+                 <label><input type="checkbox" id="col-3"> 3</label>
+                 <label><input type="checkbox" id="col-4"> 4</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>1 Tessalonicenses</summary>
+            <div class="chapter-grid">
+                <!-- 1 Tessalonicenses tem 5 capítulos -->
+                <label><input type="checkbox" id="1tes-1"> 1</label>
+                <label><input type="checkbox" id="1tes-2"> 2</label>
+                <label><input type="checkbox" id="1tes-3"> 3</label>
+                <label><input type="checkbox" id="1tes-4"> 4</label>
+                <label><input type="checkbox" id="1tes-5"> 5</label>
+                                
+            </div>
+           </details>
+
+           <details>
+            <summary>2 Tessalonicenses</summary>
+            <div class="chapter-grid">
+                <!-- 2 Tessalonicenses tem 3 capítulos -->
+                 <label><input type="checkbox" id="2tes-1"> 1</label>
+                 <label><input type="checkbox" id="2tes-2"> 2</label>
+                 <label><input type="checkbox" id="2tes-3"> 3</label>
+            </div>
+           </details>
+
+           <details>  
+            <summary>1 Timóteo</summary>
+            <div class="chapter-grid">
+                <!-- 1 Timóteo tem 6 capítulos -->
+                 <label><input type="checkbox" id="1ti-1"> 1</label>
+                 <label><input type="checkbox" id="1ti-2"> 2</label>
+                 <label><input type="checkbox" id="1ti-3"> 3</label>
+                 <label><input type="checkbox" id="1ti-4"> 4</label>
+                 <label><input type="checkbox" id="1ti-5"> 5</label>
+                 <label><input type="checkbox" id="1ti-6"> 6</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>2 Timóteo</summary>
+            <div class="chapter-grid">
+                <!-- 2 Timóteo tem 4 capítulos -->
+                 <label><input type="checkbox" id="2ti-1"> 1</label>
+                 <label><input type="checkbox" id="2ti-2"> 2</label>
+                 <label><input type="checkbox" id="2ti-3"> 3</label>
+                 <label><input type="checkbox" id="2ti-4"> 4</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>Tito</summary>
+            <div class="chapter-grid">
+                <!-- Tito tem 3 capítulos -->
+                 <label><input type="checkbox" id="tito-1"> 1</label>   
+                 <label><input type="checkbox" id="tito-2"> 2</label>
+                 <label><input type="checkbox" id="tito-3"> 3</label>
+            </div>
+           </details>
+
+           <details>    
+            <summary>Filemon</summary>
+            <div class="chapter-grid">
+                <!-- Filemon tem 1 capítulo -->
+                 <label><input type="checkbox" id="filemon-1"> 1</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>Hebreus</summary>
+            <div class="chapter-grid">
+                <!-- Hebreus tem 13 capítulos -->
+                 <label><input type="checkbox" id="hebreus-1"> 1</label>
+                 <label><input type="checkbox" id="hebreus-2"> 2</label>
+                 <label><input type="checkbox" id="hebreus-3"> 3</label>
+                 <label><input type="checkbox" id="hebreus-4"> 4</label>
+                 <label><input type="checkbox" id="hebreus-5"> 5</label>
+                 <label><input type="checkbox" id="hebreus-6"> 6</label>
+                 <label><input type="checkbox" id="hebreus-7"> 7</label>
+                 <label><input type="checkbox" id="hebreus-8"> 8</label>
+                 <label><input type="checkbox" id="hebreus-9"> 9</label>
+                 <label><input type="checkbox" id="hebreus-10"> 10</label>
+                 <label><input type="checkbox" id="hebreus-11"> 11</label>
+                 <label><input type="checkbox" id="hebreus-12"> 12</label>
+                 <label><input type="checkbox" id="hebreus-13"> 13</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>Tiago</summary>
+            <div class="chapter-grid">
+                <!-- Tiago tem 5 capítulos -->
+                 <label><input type="checkbox" id="tiago-1"> 1</label>
+                 <label><input type="checkbox" id="tiago-2"> 2</label>
+                 <label><input type="checkbox" id="tiago-3"> 3</label>
+                 <label><input type="checkbox" id="tiago-4"> 4</label>
+                 <label><input type="checkbox" id="tiago-5"> 5</label>
+            </div>
+           </details>
+
+
+
+           <details>
+            <summary>1 Pedro</summary>
+            <div class="chapter-grid">
+                <!-- 1 Pedro tem 5 capítulos -->
+                 <label><input type="checkbox" id="1pedro-1"> 1</label>
+                 <label><input type="checkbox" id="1pedro-2"> 2</label>
+                 <label><input type="checkbox" id="1pedro-3"> 3</label>
+                 <label><input type="checkbox" id="1pedro-4"> 4</label>
+                 <label><input type="checkbox" id="1pedro-5"> 5</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>2 Pedro</summary>
+            <div class="chapter-grid">
+                <!-- 2 Pedro tem 3 capítulos -->
+                 <label><input type="checkbox" id="2pedro-1"> 1</label>
+                 <label><input type="checkbox" id="2pedro-2"> 2</label>
+                 <label><input type="checkbox" id="2pedro-3"> 3</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>1 João</summary>
+            <div class="chapter-grid">
+                <!-- 1 João tem 5 capítulos -->
+                 <label><input type="checkbox" id="1joao-1"> 1</label>
+                 <label><input type="checkbox" id="1joao-2"> 2</label>
+                 <label><input type="checkbox" id="1joao-3"> 3</label>
+                 <label><input type="checkbox" id="1joao-4"> 4</label>
+                 <label><input type="checkbox" id="1joao-5"> 5</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>2 João</summary>
+            <div class="chapter-grid">
+                <!-- 2 João tem 3 capítulos -->
+                 <label><input type="checkbox" id="2joao-1"> 1</label>
+                 <label><input type="checkbox" id="2joao-2"> 2</label>
+                 <label><input type="checkbox" id="2joao-3"> 3</label>
+            </div>
+           </details>
+
+           <details>
+            <summary>3 João</summary>
+            <div class="chapter-grid">
+                <!-- 3 João tem 5 capítulos -->
+                 <label><input type="checkbox" id="3joao-1"> 1</label>
+                 <label><input type="checkbox" id="3joao-2"> 2</label>
+                 <label><input type="checkbox" id="3joao-3"> 3</label>
+                 <label><input type="checkbox" id="3joao-4"> 4</label>
+                 <label><input type="checkbox" id="3joao-5"> 5</label>
+            </div>
+           </details>
+
+           <details> 
+            <summary>Judas</summary>
+            <div class="chapter-grid">
+                <!-- Judas tem 1 capítulo -->
+                 <label><input type="checkbox" id="judas-1"> 1</label>
+            </div>
+           </details>
+
+           <h3>Profecia</h3>
+
+           <details>
+            <summary>Apocalipse</summary>
+            <div class="chapter-grid">
+                <!-- Apocalipse tem 22 capítulos -->
+                 <label><input type="checkbox" id="apocalipse-1"> 1</label>
+                 <label><input type="checkbox" id="apocalipse-2"> 2</label>
+                 <label><input type="checkbox" id="apocalipse-3"> 3</label>
+                 <label><input type="checkbox" id="apocalipse-4"> 4</label>
+                 <label><input type="checkbox" id="apocalipse-5"> 5</label>
+                 <label><input type="checkbox" id="apocalipse-6"> 6</label>
+                 <label><input type="checkbox" id="apocalipse-7"> 7</label>
+                 <label><input type="checkbox" id="apocalipse-8"> 8</label>
+                 <label><input type="checkbox" id="apocalipse-9"> 9</label>
+                 <label><input type="checkbox" id="apocalipse-10"> 10</label>
+                 <label><input type="checkbox" id="apocalipse-11"> 11</label>
+                 <label><input type="checkbox" id="apocalipse-12"> 12</label>
+                 <label><input type="checkbox" id="apocalipse-13"> 13</label>
+                 <label><input type="checkbox" id="apocalipse-14"> 14</label>
+                 <label><input type="checkbox" id="apocalipse-15"> 15</label>
+                 <label><input type="checkbox" id="apocalipse-16"> 16</label>
+                 <label><input type="checkbox" id="apocalipse-17"> 17</label>
+                 <label><input type="checkbox" id="apocalipse-18"> 18</label>
+                 <label><input type="checkbox" id="apocalipse-19"> 19</label>
+                 <label><input type="checkbox" id="apocalipse-20"> 20</label>
+                 <label><input type="checkbox" id="apocalipse-21"> 21</label>
+                 <label><input type="checkbox" id="apocalipse-22"> 22</label>
+            </div>
+           </details>
+
+
+
+            <!-- Outros livros do Novo Testamento -->
+        </section>
+
+        <button id="saveBtn">Salvar Progresso</button>
+        <button id="clearBtn">Limpar Progresso</button>
+    </main>
+
+    <footer>
+        <p>Checklist de leitura criado com ❤️</p>
+    </footer>
+
+    <script src="/public/scripts/biblia.js"></script>
+</body>
+</html>
+
+    
